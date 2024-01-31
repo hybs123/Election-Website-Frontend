@@ -28,10 +28,10 @@
 #win-2{
     padding: 5% 3% 5% 3%;
     background-color: bisque;
-    background-image: url("img/Paper_background.jpg");
+    background-image: url("Election-Website-Frontend/img/Paper_background.jpg");
 }
 .party-wrapper{
-    background-image: url("img/Paper_template.jpg");
+    background-image: url("Election-Website-Frontend/img/Paper_template.jpg");
     padding:2%;
     margin-bottom: 30px;
 }
@@ -62,7 +62,7 @@
 
 /* -------------------------------------------------- */
 #win-3{
-    background-image: url("img/India_backgrounf.jpg");
+    background-image: url("Election-Website-Frontend/img/India_backgrounf.jpg");
     padding: 5% 3% 5% 3%;
 }
 .timeline-wrapper{
@@ -92,7 +92,7 @@
 
 /* ------------------------------------------ */
 #win-4{
-    background-image: url("img/parchment.jpg");
+    background-image: url("Election-Website-Frontend/img/parchment.jpg");
     padding: 5% 3% 5% 3%;
     background-color: rgba(0, 0, 0, 0.21);
     /* background-blend-mode: multiply; */
@@ -103,7 +103,7 @@
     flex-wrap: nowrap;
 }
 .promise-item{
-    background-image: url("img/StickyNoteBGpng.png");
+    background-image: url("Election-Website-Frontend/img/StickyNoteBGpng.png");
     width: 100%;
     padding:2%;
     background-repeat: no-repeat;
