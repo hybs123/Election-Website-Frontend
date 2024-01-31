@@ -39,27 +39,27 @@ function Audmeme(temp) {
     
     if (temp === 1) {
         let num = Math.floor(Math.random() * 3 + 1);
-        let beat = new Audio("Election-Website-Frontend/aud/Modi-" + num + ".mp3");
+        let beat = new Audio("./aud/Modi-" + num + ".mp3");
         beat.play();
     }
     else if (temp === 2) {
         let num = Math.floor(Math.random() * 3 + 1);
-        let beat = new Audio("Election-Website-Frontend/aud/Rahul-" + num + ".mp3");
+        let beat = new Audio("./aud/Rahul-" + num + ".mp3");
         beat.play();
     }
     else if (temp === 3) {
         let num = Math.floor(Math.random() * 2 + 1);
-        let beat = new Audio("Election-Website-Frontend/aud/Mamta-" + num + ".mp3");
+        let beat = new Audio("./aud/Mamta-" + num + ".mp3");
         beat.play();
     }
     else if (temp === 4) {
         
-        let beat = new Audio("Election-Website-Frontend/aud/Stalin.mp3");
+        let beat = new Audio("./aud/Stalin.mp3");
         beat.play();
     }
     else if (temp === 5) {
         let num = Math.floor(Math.random() * 3 + 1);
-        let beat = new Audio("Election-Website-Frontend/aud/Kejriwal-" + num + ".mp3");
+        let beat = new Audio("./aud/Kejriwal-" + num + ".mp3");
         beat.play();
     }
     let el = document.getElementById("evm-btn-"+temp);
