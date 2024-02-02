@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+#win-1{
+    padding: 3%;
+    
+}
+.headbg{
+    background-color: rgb(255, 234, 207);
+    width: fit-content;
+    padding:1% 2%;
+}
+.resources-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.resources-con{
+    width: 50%;
+    padding: 0 2% 0 2%;
+}
+.resources-con h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+/* ----------------------------------------- */
+#win-2{
+    padding: 5% 3% 5% 3%;
+    background-color: bisque;
+    background-image: url("img/Paper_background.jpg");
+}
+.party-wrapper{
+    background-image: url("img/Paper_template.jpg");
+    padding:2%;
+    margin-bottom: 30px;
+}
+.party-wrapper h1{
+    font-size: 35px;
+}
+.candidate-box, .candidate-info,.party-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.candidate-info p,.party-info p{
+    width: 100%;
+    margin: 2% 0 2% 2%;
+    font-size: 14px;
+}
+.candidate-box{
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(79, 43, 0, 0.151);
+}
+.party-info{
+    border-right: 2px solid rgba(79, 43, 0, 0.151);
+    padding: 2%;
+}
+.candidate-info{
+    padding: 2%;
+}
+.work-box{
+    margin-bottom: 20px;
+}
+
+/* -------------------------------------------------- */
+#win-3{
+    background-image: url("img/India_backgrounf.jpg");
+    padding: 5% 3% 5% 3%;
+}
+.timeline-wrapper{
+    background-color: bisque;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.timeline-item{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgba(79, 43, 0, 0.151);
+}
+.timeline-img{
+    width: 100%;
+    text-align: center;
+}
+.timeline-img p{
+    
+    font-weight: 500;
+}
+.timeline-img img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.timeline-con{
+    width: 90%;
+    padding: 2%;
+}
+
+/* ------------------------------------------ */
+#win-4{
+    background-image: url("img/parchment.jpg");
+    padding: 5% 3% 5% 3%;
+    background-color: rgba(0, 0, 0, 0.21);
+    /* background-blend-mode: multiply; */
+}
+
+.promise-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.promise-item{
+    background-image: url("img/StickyNoteBGpng.png");
+    width: 100%;
+    padding:2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.promise-item img{
+    width: 60%;
+    margin: 20% 0 0 0;
+}
+.promise-item h2{
+    margin-top: 10px;
+}
+.promise-item p{
+    width: 80%;
+    font-size: 12px;
+    margin: 5px 0 5px 0;
+    text-align: left;
+}
+
+/* ------------------------------------------- */
+/* Vote Page  */
+#evm{
+    padding: 5% 8% 5% 8%;
+    
+}
+.evm-wrapper{
+    background-color: rgb(228, 245, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5% 5% 5%;
+}
+.evm-wrapper h1{
+    margin: 5% 0;
+}
+.evm-item{
+    display: flex;
+    padding: 1%;
+    width: 100%;
+}
+.evm-con{
+    width: 100%;
+    background-color: white;
+    display: flex;
+   
+    align-items: center;
+
+}
+.evm-con img{
+    width: 8%;
+    margin: 0 5% 0 0;
+}
+.evm-button{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.evm-btn{
+    width: 80%;
+    background-color: blue;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+
+.flash{
+    background-color: aliceblue;
+}
