@@ -126,7 +126,7 @@ a{
 
  #Page-2{
     width: 100%;
-    background-image: url("img/Paper_background.jpg");
+    background-image: url("./img/Paper_background.jpg");
     background-color: beige;
     padding: 5% 3% 5% 3%;
     display:flex;
@@ -141,7 +141,7 @@ a{
     border-bottom: 2px solid rgba(79, 43, 0, 0.151);
  }
  .News{
-    background-image: url("img/Paper_template.jpg");
+    background-image: url("./img/Paper_template.jpg");
     padding:2% 2% 2% 2%;
     
  }
@@ -236,7 +236,7 @@ a{
 /* ------------------------------------------------- */
 #Page-3{
     padding: 5% 5% 5% 5%;
-    background-image: url("img/Debate_background.jpg");
+    background-image: url("./img/Debate_background.jpg");
     background-color:bisque;
     background-blend-mode: multiply;
     margin: auto;
@@ -261,7 +261,7 @@ a{
     align-items: center;
 }
 .debate-box{
-    background-image: url("img/Breaking_news.jpg");
+    background-image: url("./img/Breaking_news.jpg");
     background-size: cover;
     
     margin: auto;
