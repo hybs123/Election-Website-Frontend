@@ -6,7 +6,9 @@ let next = document.getElementById("Nextbtn");
 let prev = document.getElementById("Prevbtn");
 let interval = 3000;
 let evmBtn = document.getElementsByClassName("evm-btn");
-
+let toggleBtn = document.querySelector(".toggle-btn");
+let toggleBtnicon = document.querySelector(".toggle-btn i");
+let dropMenu = document.querySelector(".dropdownmenu");
 
 
 
@@ -39,27 +41,27 @@ function Audmeme(temp) {
     
     if (temp === 1) {
         let num = Math.floor(Math.random() * 3 + 1);
-        let beat = new Audio("./aud/Modi-" + num + ".mp3");
+        let beat = new Audio("aud/Modi-" + num + ".mp3");
         beat.play();
     }
     else if (temp === 2) {
         let num = Math.floor(Math.random() * 3 + 1);
-        let beat = new Audio("./aud/Rahul-" + num + ".mp3");
+        let beat = new Audio("aud/Rahul-" + num + ".mp3");
         beat.play();
     }
     else if (temp === 3) {
         let num = Math.floor(Math.random() * 2 + 1);
-        let beat = new Audio("./aud/Mamta-" + num + ".mp3");
+        let beat = new Audio("aud/Mamta-" + num + ".mp3");
         beat.play();
     }
     else if (temp === 4) {
         
-        let beat = new Audio("./aud/Stalin.mp3");
+        let beat = new Audio("aud/Stalin.mp3");
         beat.play();
     }
     else if (temp === 5) {
         let num = Math.floor(Math.random() * 3 + 1);
-        let beat = new Audio("./aud/Kejriwal-" + num + ".mp3");
+        let beat = new Audio("aud/Kejriwal-" + num + ".mp3");
         beat.play();
     }
     let el = document.getElementById("evm-btn-"+temp);
@@ -69,6 +71,12 @@ function Audmeme(temp) {
     }, 100);
 }
 
+toggleBtn.addEventListener("click",()=>{
+    dropMenu.classList.toggle("open");
+    const check = dropMenu.classList.contains("open");
+
+    toggleBtnicon.classList = check ? "fa-solid fa-xmark" : "fa-solid fa-bars";
+})
 
 
 
