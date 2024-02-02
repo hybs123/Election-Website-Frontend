@@ -8,12 +8,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="resources.css">
+    
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <nav id="navbar">
         <a href="#">Electo</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="voters-resource.html">Voter's Resources</a></li>
+            <li><a href="vote.html">Vote Here</a></li>
+            <!-- <li><a href="" class="button">Sign Up/Login</a></li> -->
+            
+        </ul>
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        
+    </nav>
+    <div class="dropdownmenu" >
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="">About Us</a></li>
@@ -22,8 +38,7 @@
             <!-- <li><a href="" class="button">Sign Up/Login</a></li> -->
             
         </ul>
-    </nav>
-
+    </div>
     <div id="win-1">
         <div class="resources-box">
             <video src="voters_resources.mp4" autoplay="true" loop="1000"></video>
@@ -41,11 +56,11 @@
             <h1>Bhartiya Janta Party (BJP)</h1>
             <div class="candidate-box">
                 <div class="party-info">
-                    <img src="./img/BJP_logo.jpg" alt="">
+                    <img src="img/BJP_logo.jpg" alt="">
                     <p>With a foundation in the Bharatiya Jana Sangh since 1951, the Bharatiya Janata Party (BJP) was formally founded in 1980 and has been promoting pro-Hindu values ever since. Even though the 1989 election was successful, criticism followed the 1992 demolition of the Babri Mosque. A brief BJP government came to power in 1996, and Atal Bihari Vajpayee led a majority government in 1998. The reason for Vajpayee's resignation was the 2004 defeat.</p>
                 </div>
                 <div class="candidate-info">
-                    <img src="./img/Modiji.jpg" alt="">
+                    <img src="img/Modiji.jpg" alt="">
                     <p>Narendra Modi (born September 17, 1950, Vadnagar, India) Indian politician and government official who rose to become a senior leader of the Bharatiya Janata Party (BJP). In 2014 he led his party to victory in elections to the Lok Sabha (lower chamber of the Indian parliament), after which he was sworn in as prime minister of India. Prior to that he had served (2001-14) as chief minister (head of government) of Gujarat state in western India.</p>
                 </div>
             </div>
@@ -58,11 +73,11 @@
             <h1>Indian National Congress (INC)</h1>
             <div class="candidate-box">
                 <div class="party-info">
-                    <img src="./img/INC_logo.jpg" alt="">
+                    <img src="img/INC_logo.jpg" alt="">
                     <p>The Indian National Congress was established in 1885 and under the leadership of Mahatma Gandhi and Bal Gangadhar Tilak changed from being a moderate reform party to a force for independence. It was crucial to the independence of India, with Jawaharlal Nehru ruling from 1951 to 1964. Despite having dominated history, support began to decline in the latter half of the 20th century, and it finally made a comeback in 2004.</p>
                 </div>
                 <div class="candidate-info">
-                    <img src="./img/Rahulgandhi.jpg" alt="">
+                    <img src="img/Rahulgandhi.jpg" alt="">
                     <p>Rahul Gandhi (born June 19, 1970, Delhi, India) Indian politician and leading figure of the Indian National Congress (Congress Party). He was born the son of Rajiv Gandhi, a grandson of Indira Gandhi, and a great grandson of Jawaharlal Nehru, all of whom served as prime ministers of India. His mother, Sonia Gandhi, also played a leading role in the Congress Party.!</p>
                 </div>
             </div>
@@ -74,11 +89,11 @@
             <h1>Trinamool Congress (TMC)</h1>
             <div class="candidate-box">
                 <div class="party-info">
-                    <img src="./img/Trinamool.jpg" alt="">
+                    <img src="img/Trinamool.jpg" alt="">
                     <p>Formerly a member of the national ruling coalition of the Congress Party, the All India Trinamool Congress (AITC) became an independent entity. A major change in the political scene of West Bengal was brought about by Mamata Banerjee's AITC, which led to her being the first female chief minister of the state.</p>
                 </div>
                 <div class="candidate-info">
-                    <img src="./img/Mamtadidi.jpg" alt="">
+                    <img src="img/Mamtadidi.jpg" alt="">
                     <p>Indian politician Mamata Banerjee is a groundbreaking individual who was born in Kolkata, India on January 5, 1955. As the first female chief minister of West Bengal since 2011, she overcame early personal obstacles to rise from a lower middle class background. Having earned several degrees, Banerjee began politics while still in college and went on to win several elections. Most notably, she represented Kolkata in the Lok Sabha from 1984 to 2009.</p>
                 </div>
             </div>
@@ -90,11 +105,11 @@
             <h1>Dravida Munnetra Kazhagam (DMK)</h1>
             <div class="candidate-box">
                 <div class="party-info">
-                    <img src="./img/DMK_logo.jpg" alt="">
+                    <img src="img/DMK_logo.jpg" alt="">
                     <p>After splitting from the Dravidian Federation, C.N. Annadurai created the Dravidian Progressive Federation (DMK) in 1949, drawing inspiration from E.V. Ramaswami Naicker's pro-Tamil campaigning. After initially supporting separation, the DMK changed its emphasis to Tamil Nadu's Dravidian population and resisted Hindi imposition. It rose to prominence in 1967 after Annadurai was appointed chief minister and it won the state elections. Following the passing of Annadurai in 1971, Karunanidhi carried on the success.</p>
                 </div>
                 <div class="candidate-info">
-                    <img src="./img/Stalin.jpg" alt="">
+                    <img src="img/Stalin.jpg" alt="">
                     <p>Muthuvel Karunanidhi Stalin born 1 March 1953 is an Indian politician serving as the 8th and current Chief Minister of Tamil Nadu since 2021. The son of the former Chief Minister M. Karunanidhi, Stalin has been the president of the Dravida Munnetra Kazhagam (DMK) party since 28 August 2018. He served as the 45th Mayor of Chennai from 1996 to 2002 and the 1st Deputy Chief Minister of Tamil Nadu from 2009 to 2011.Stalin was placed 24th on the list of India's Most Powerful Personalities in 2022 by The Indian Express.</p>
                 </div>
             </div>
@@ -106,11 +121,11 @@
             <h1>Aam Aadmi Party (AAP)</h1>
             <div class="candidate-box">
                 <div class="party-info">
-                    <img src="./img/AAP_logo.jpg" alt="">
+                    <img src="img/AAP_logo.jpg" alt="">
                     <p>When the Aam Aadmi Party (AAP) was founded on October 2, 2012, Indian politics underwent a sea change. It broke down barriers and embraced people from all walks of life, launching the first form of crowdsourced election fundraising. Dedicated to eliminating corruption and offering a substitute political framework, the AAP made its electoral debut in the Delhi Assembly election held in December 2013.</p>
                 </div>
                 <div class="candidate-info">
-                    <img src="./img/Kejriwal.jpg" alt="">
+                    <img src="img/Kejriwal.jpg" alt="">
                     <p>Born on August 16, 1968, Arvind Kejriwal is Delhi's seventh chief minister. He was first elected in December 2013 and held the position until February 2014 when he was re-elected. He was a career bureaucrat who established the Aam Aadmi Party (AAP) in 2012 and led the party to an unprecedented majority in the Delhi Assembly elections of 2015. A laureate of the Ramon Magsaysay Award for his anti-corruption efforts, Kejriwal resigned in 2014 due to legal difficulties. His commitment to political leadership and grassroots action has had a big influence on Indian politics.</p>
                 </div>
             </div>
@@ -122,11 +137,11 @@
             <h1>Shiv Sena (SS)</h1>
             <div class="candidate-box">
                 <div class="party-info">
-                    <img src="./img/RSS_logo.jpg" alt="">
+                    <img src="img/RSS_logo.jpg" alt="">
                     <p>Bal Thackeray (born January 23, 1926, Pune, Maharashtra state, India—died November 17, 2012, Mumbai) Indian journalist and politician, founder of the Shiv Sena (“Army of Shiva”) political party, and advocate of a strong pro-Hindu policy in India. Under his leadership the Shiv Sena became a dominant political force in the western Indian state of Maharashtra.</p>
                 </div>
                 <div class="candidate-info">
-                    <img src="./img/Uddhav.jpg" alt="">
+                    <img src="img/Uddhav.jpg" alt="">
                     <p>Born on July 27, 1960, Uddhav Balasaheb Thackeray led Maharashtra as its 19th chief minister from 2019 to 2022. As Leader of the House during this time, he oversaw the Maharashtra Legislative Assembly. As president of the Maha Vikas Aghadi since 2019 and the Shiv Sena (Uddhav Balasaheb Thackeray) since 2022, Uddhav Thackeray is currently in office. Prior to joining the Maharashtra Legislative Council in 2020, he served in important capacities for the Shiv Sena as a working president and leader.</p>
                 </div>
             </div>
@@ -138,11 +153,11 @@
             <h1>YSR Congress Party (YSR)</h1>
             <div class="candidate-box">
                 <div class="party-info">
-                    <img src="./img/YSR_logo.jpg" alt="">
+                    <img src="img/YSR_logo.jpg" alt="">
                     <p>The Yuvajana Sramika Rythu Congress Party (YSRCP or YCP) is a regional political party in Andhra Pradesh, India, focused on youth, labor, and farmers. Led by Y. S. Jagan Mohan Reddy, who also serves as the state's chief minister, it currently holds 20 seats, making it the fifth-largest party in the Lok Sabha.The YSRCP is currently well-represented in state and national assemblies of the government.</p>
                 </div>
                 <div class="candidate-info">
-                    <img src="./img/Reddy.jpg" alt="">
+                    <img src="img/Reddy.jpg" alt="">
                     <p>Chief Minister YS Jagan Mohan Reddy has made it a priority to implement election pledges since taking office on May 30, 2019, with a particular emphasis on women's welfare through Direct Benefit Transfer and the awarding of house site pattas in their names. Significant success was made as a result of government initiatives such as direct benefit transfer, favorable industry policies, and a strong village and ward secretariat structure. A notable emphasis on women's social, economic, and political inclusion was placed by the YS Jagan Mohan Reddy government through programs including Amma Vodi, Vidya Devena, Vasati Devena, Cheyutha, Asara, house site pattas, and reserved posts.</p>
                 </div>
             </div>
@@ -158,7 +173,7 @@
         <div class="timeline-wrapper">
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/1946.jpg" alt="">
+                    <img src="img/1946.jpg" alt="">
                     <p>Dr. Ambedkar Filing the Constitution of India in 1946</p>
                 </div>
                 <div class="timeline-con">
@@ -167,7 +182,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/Constituent-assembly.jpg" alt="">
+                    <img src="img/Constituent-assembly.jpg" alt="">
                     <p>Indirectly elected representatives in the Constituent assembly of india 1946-49</p>
                 </div>
                 <div class="timeline-con">
@@ -176,7 +191,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/1947.jpg" alt="">
+                    <img src="img/1947.jpg" alt="">
                     <p>Pt. Jawaharlal Nehru becoming PM by First Lok Sabha Elections in 1952-57</p>
                 </div>
                 <div class="timeline-con">
@@ -185,7 +200,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/1947.jpg" alt="">
+                    <img src="img/1947.jpg" alt="">
                     <p>Pt. Jawaharlal Nehru becoming PM by Second Lok Sabha Elections in 1957-62</p>
                 </div>
                 <div class="timeline-con">
@@ -194,7 +209,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/Gulzarilal.jpeg" alt="">
+                    <img src="img/Gulzarilal.jpeg" alt="">
                     <p>Gulzari lal Nanda was made the interim PM by third Lok Sabha Elections in 1962-67</p>
                 </div>
                 <div class="timeline-con">
@@ -203,7 +218,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/indira.jpg" alt="">
+                    <img src="img/indira.jpg" alt="">
                     <p>Indira Gandhi becoming PM by Fourth Lok Sabha Elections in 1967-70</p>
                 </div>
                 <div class="timeline-con">
@@ -212,7 +227,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/indira.jpg" alt="">
+                    <img src="img/indira.jpg" alt="">
                     <p>Indira Gandhi becoming PM by Fifth Lok Sabha Elections in 1971-77</p>
                 </div>
                 <div class="timeline-con">
@@ -221,7 +236,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/Morarji.jpg" alt="">
+                    <img src="img/Morarji.jpg" alt="">
                     <p>Morarji Desai of Janata Party becoming PM by Sixth Lok Sabha Elections in 1977-79</p>
                 </div>
                 <div class="timeline-con">
@@ -230,7 +245,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/indira.jpg" alt="">
+                    <img src="img/indira.jpg" alt="">
                     <p>Indira Gandhi becoming PM by Seventh Lok Sabha Elections in 1980-84</p>
                 </div>
                 <div class="timeline-con">
@@ -239,7 +254,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/Rajiv.jpg" alt="">
+                    <img src="img/Rajiv.jpg" alt="">
                     <p>Rajiv Gandhi becoming PM by Eighth Lok Sabha Elections in 1984-89</p>
                 </div>
                 <div class="timeline-con">
@@ -248,7 +263,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/VP.jpg" alt="">
+                    <img src="img/VP.jpg" alt="">
                     <p>Vishwanath Pratap Singh of National Front with the support of BJP becoming PM by Ninth Lok Sabha Elections in 1989-91</p>
                 </div>
                 <div class="timeline-con">
@@ -257,7 +272,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/PV.jpg" alt="">
+                    <img src="img/PV.jpg" alt="">
                     <p>PV Narsimha Rao of UPA becoming PM by tenth Lok Sabha Elections in 1991-96</p>
                 </div>
                 <div class="timeline-con">
@@ -266,7 +281,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/HD.jpeg" alt="">
+                    <img src="img/HD.jpeg" alt="">
                     <p>HD Deve gowda becoming PM by Eleventh Lok Sabha Elections in 1996-98</p>
                 </div>
                 <div class="timeline-con">
@@ -275,7 +290,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/AtalBihari.jpg" alt="">
+                    <img src="img/AtalBihari.jpg" alt="">
                     <p>Atal Bihari Vajpayee from NDA becoming PM by Twelfth Lok Sabha Elections in 1998-99</p>
                 </div>
                 <div class="timeline-con">
@@ -284,7 +299,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/AtalBihari.jpg" alt="">
+                    <img src="img/AtalBihari.jpg" alt="">
                     <p>Atal Bihari Vajpayee from NDA becoming PM by Thirteenth Lok Sabha Elections in 1999-2004</p>
                 </div>
                 <div class="timeline-con">
@@ -295,7 +310,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/ManmohanSIngh.jpg" alt="">
+                    <img src="img/ManmohanSIngh.jpg" alt="">
                     <p>Manmohan Singh from UPA becoming PM by Fourteenth Lok Sabha Elections in 2004-09</p>
                 </div>
                 <div class="timeline-con">
@@ -306,7 +321,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/ManmohanSIngh.jpg" alt="">
+                    <img src="img/ManmohanSIngh.jpg" alt="">
                     <p>Manmohan Singh from UPA becoming PM by Fifteenth Lok Sabha Elections in 2009-14</p>
                 </div>
                 <div class="timeline-con">
@@ -317,7 +332,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/Modiji2.jpg" alt="">
+                    <img src="img/Modiji2.jpg" alt="">
                     <p>Narendra Modi of BJP becoming PM by Sixteenth Lok Sabha Elections in 2014-19</p>
                 </div>
                 <div class="timeline-con">
@@ -328,7 +343,7 @@
             </div>
             <div class="timeline-item">
                 <div class="timeline-img">
-                    <img src="./img/Modiji2.jpg" alt="">
+                    <img src="img/Modiji2.jpg" alt="">
                     <p>Narendra Modi of BJP becoming PM by Seventeenth Lok Sabha Elections in 2019-24</p>
                 </div>
                 <div class="timeline-con">
@@ -338,48 +353,12 @@
         </div>
     </div>
 
-    <div id="win-4">
-        <h1 class="headbg">Government Initiatives</h1>
-        <div class="promise-wrapper">
-            <div class="promise-box">
-                <div class="promise-item">
-                    <img src="./img/jandhan.jpg" alt="">
-                    <h2>Pradhan mantri jan Dhan Yojana</h2>
-                    <p>As many as 228.1 million new bank accounts have been opened as on August 3, 2016, an increase of 31% from 174 million in 2015-24% of these accounts (“zero-balance accounts”, in officialese) had no money, a reduction of 22% from 2015. The balance in the accounts increased 85% over one year, from Rs 22,033 crore to Rs 40,795 crore.
-
-                        The previous United Progressive Alliance (UPA) government had opened more than 50 million “no-frills” accounts-as they called them-for the poor over five years, but most were never used, IndiaSpend reported in October 2014.</p>
-                </div>
-                <div class="promise-item">
-                    <img src="./img/Swachh.jpg" alt="">
-                    <h2>Swachh Bharat Abhiyan</h2>
-                    <p>A nationwide FactChecker check revealed the claim that 100% of India’s schools was not true. Random checks across seven states revealed widespread infirmities, such as:
-
-                        Many schools, from urban New Delhi to backward and often remote areas such as Chatra district (Jharkhand) and Sedam Taluka, Gulbarga district (Karnataka), did not have toilets. The specific claim that every school now has separate toilets for boys and girls in all schools was not true.</p>
-                </div>
-                
-            </div>
-            <div class="promise-box">
-                <div class="promise-item">
-                    <img src="./img/GiveItUp.jpg" alt="">
-                    <h2>Give It Up Abhiyan</h2>
-                    <p>As many as 10.4 million people gave up their LPG subsidy voluntarily, according to recent official data from the ministry of oil and petroleum. The Centre launched Pradhan Mantri Ujjwala Yojana to provide LPG connections to 50 million women from families who live below the poverty line over a period of three years, starting from financial year 2016-17.</p>
-                </div>
-                <div class="promise-item">
-                    <img src="./img/Electricity.jpg" alt="">
-                    <h2>Electricity to Villages</h2>
-                    <p>As many as 587,569 of 597,464 villages (98.1%) in India were “electrified” as on June 30, 2016, which means only 9,895 do not have electricity, according to a recent report by the Central Electricity Authority (CEA).In Uttar Pradesh, for instance, three of four households get electricity for less than 12 hours a day. In Jharkhand, only 2% of electrified households get electricity for 20 or more hours; 81% do not get four or more hours in the evenings, while 60% face three or more days of total blackouts every month, IndiaSpend reported in October 2015.</p>
-                </div>
-                
-            </div>
-            
-         
-        </div>
-    </div>
+   
 
     <div id="Page-4">
         <h1 id="Page-4-head">Making Voting Fun Again!</h1>
         <div class="voters-resource">
-            <img src="./img/onevote.jpg" alt="">
+            <img src="img/onevote.jpg" alt="">
             <div class="voters-con">
                 <p>Enter a world where voting is enjoyable! See our cutting-edge practice voting page, which includes an amusing Electronic Voting Machine (EVM) that plays meme sounds and displays candidate names. This humorous method of voting aims to entertain and involve voters, turning the traditional voting process into a fun pastime. We hope that by fusing fun with civic duty, we might encourage more people to cast ballots. Come along with us as we transform the way we exercise our democratic right, turning voting from a chore into something fun and unforgettable for all.</p>
                 <a href="#">Check the Page Out</a>

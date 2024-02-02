@@ -126,7 +126,7 @@ a{
 
  #Page-2{
     width: 100%;
-    background-image: url("./img/Paper_background.jpg");
+    background-image: url("img/Paper_background.jpg");
     background-color: beige;
     padding: 5% 3% 5% 3%;
     display:flex;
@@ -141,7 +141,7 @@ a{
     border-bottom: 2px solid rgba(79, 43, 0, 0.151);
  }
  .News{
-    background-image: url("./img/Paper_template.jpg");
+    background-image: url("img/Paper_template.jpg");
     padding:2% 2% 2% 2%;
     
  }
@@ -236,7 +236,7 @@ a{
 /* ------------------------------------------------- */
 #Page-3{
     padding: 5% 5% 5% 5%;
-    background-image: url("./img/Debate_background.jpg");
+    background-image: url("img/Debate_background.jpg");
     background-color:bisque;
     background-blend-mode: multiply;
     margin: auto;
@@ -261,7 +261,7 @@ a{
     align-items: center;
 }
 .debate-box{
-    background-image: url("./img/Breaking_news.jpg");
+    background-image: url("img/Breaking_news.jpg");
     background-size: cover;
     
     margin: auto;
@@ -399,203 +399,3 @@ footer a{
 
 
 
-/* --------------------------------RESPONSIVE-------------------------- */
-@media(max-width:1280px){
-    a,div{
-        font-size: 14px;
-    }
-    #navbar ul{
-        width: 60%;
-    }
-    .resources-con h1,.News h1,#Page-3-head,#Page-4-head{
-        font-size: 50px;
-    }
-}
-
-
-@media(max-width:900px){
-    #navbar ul{
-        display: none;
-    }
-    .toggle-btn{
-        display: block;
-    }
-    .resources-con h1,.News h1,#Page-3-head,#Page-4-head{
-        font-size: 40px;
-    }
-    p,div{
-        font-size: 12px;
-    }
-    .Seat-count{
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 5%;
-    }
-    .Seat-count video{
-        
-        width: 100%;
-    }
-    
-    .Seat-count-box{
-        flex-direction: row;
-        width: 100%;
-    }
-    .News-item{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-    .News-item-img{
-        width: 30%;
-    }
-    .News-box{
-        flex-direction: column;
-    }
-    .News-con{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 2%;
-    }
-    .News-con h2{
-        text-align: left;
-    }
-}
-@media(max-width:700px){
-    
-    .resources-con h1,.News h1,#Page-3-head,#Page-4-head{
-        font-size: 30px;
-    }
-    .resources-con em{
-        font-size: 14px;
-    }
-    .resources-box{
-        flex-direction: column-reverse;
-        
-    }
-    .vid-box p{
-        display: none;
-    }
-    .resources-con{
-        width: 100%;
-        margin: 5% 0;
-        
-    }
-    .resources-con{
-        text-align: center;
-    }
-    .index-para{
-        display: block;
-        text-align: left;
-    }
-    .Seat-count-box h2{
-        font-size: 30px;
-    }
-    .Seat-count-box{
-        padding: 5%;
-    }
-    .Seat-item-con{
-        margin-top: 0;
-        
-    }
-    .Seat-item-con a{
-        font-size: 12px;
-    }
-    .News-item-img{
-        width: 50%;
-    }
-}
-
-@media(max-width:500px){
-    
-    .resources-con h1,.News h1,#Page-3-head,#Page-4-head{
-        font-size: 24px;
-    }
-    .index-para{
-        font-size: 10px;
-    }
-    .dropdownmenu{
-        width: 250px;
-    }
-    .Seat-count-box h2{
-        font-size: 24px;
-    }
-    .News-con h3{
-        font-size: 16px;
-    }
-    .News-con p{
-        font-size: 10px;
-    }
-    .News-item-img{
-        width: 60%;
-    }
-    
-
-}
-@media(max-width:300px){
-    
-    .resources-con h1,.News h1,#Page-3-head,#Page-4-head{
-        font-size: 20px;
-    }
-    .resources-con em{
-        font-size: 12px;
-    }
-    .dropdownmenu{
-        width: 200px;
-    }
-    .Seat-count-box h2{
-        font-size: 20px;
-    }
-    .Seat-item-con a{
-        font-size: 10px;
-    }
-    .News-con h3{
-        font-size: 12px;
-    }
-    .News-con p{
-        font-size: 8px;
-    }
-    
-    
-}
-@media(max-width:350px){
-    
-    .News-item-img{
-        width: 70%;
-    }
-    .News-con h3{
-        font-size: 12px;
-    }
-    .News-con p{
-        font-size: 7px;
-    }
-    
-    
-}
-@media(max-width:250px){
-    
-    .News-item-img{
-        width: 90%;
-    }
-    
-    
-    
-}
-@media(max-width:200px){
-   
-    .Seat-count-box h2{
-        font-size: 16px;
-    }
-    .Seat-item-con a{
-        font-size: 8px;
-    }
-    
-    
-}
-@media(min-width:900px){
-    .open{
-        height: 0;
-        padding: 0;
-    }
-}
