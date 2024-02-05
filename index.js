@@ -80,6 +80,11 @@
             let beat = new Audio("./aud/Ys.mp3");
             beat.play();
         }
+        else if (temp === 8) {
+           
+            let beat = new Audio("./aud/fakir.mp3");
+            beat.play();
+        }
         let el = document.getElementById("evm-btn-"+temp);
         el.classList.add("flash");
         setTimeout(() => {
